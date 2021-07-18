@@ -1,0 +1,45 @@
+.sideBarContent {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    z-index: 1;
+}
+.body{
+    background-image: url("https://i0.wp.com/viacluj.tv/wp-content/uploads/2019/06/logo-ubb-png-4.png?resize=639%2C395&ssl=1");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100%;
+    margin: 0;
+}
+.navBar{
+    z-index: 0;
+}
+.sideBar{
+    z-index: 1;
+}
+.pageContent{
+    margin-top: 100px;
+
+}
+.temaContent{
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.glass{
+    background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.2)
+    );
+    border-radius: 2rem;
+}
